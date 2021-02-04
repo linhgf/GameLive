@@ -5,7 +5,7 @@
 -------------------------
 ![baidu](https://github.com/linhgf/GameLive/blob/main/Previews/BombArrows_1.jpg)  
 ### 复刻游戏
-* 1.赛尔达
+* 赛尔达
 ### 项目
 * [1.BombArrows爆炸箭](https://github.com/linhgf/GameLive/tree/main/BombArrows "")
 
