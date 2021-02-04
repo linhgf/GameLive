@@ -6,4 +6,4 @@
 复刻游戏：塞尔达
 ### 项目
 
-* [1.简单k-NN](https://github.com/linhgf/GameLive/tree/main/BombArrows "悬停显示")
+* [1.BombArrows爆炸箭](https://github.com/linhgf/GameLive/tree/main/BombArrows "")
