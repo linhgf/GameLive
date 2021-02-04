@@ -1,8 +1,7 @@
 # 𠃊颇游感触𠃍
-游玩过后，不妨亲自实现游戏<font size=20><strong>cooooooool</strong></font>的内容<br><br><br>
+游玩过后，不妨亲自实现游戏#**cooooooool**</font>的内容<br><br><br>
 <font size=15>设置字体大小</font>
 
-第一款：爆炸箭 BombArrows
 -------------------------
 ![baidu](https://github.com/linhgf/GameLive/blob/main/Previews/BombArrows_1.jpg)  
 ### 复刻游戏
