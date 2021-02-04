@@ -7,3 +7,4 @@
 ### 项目
 
 * [1.BombArrows爆炸箭](https://github.com/linhgf/GameLive/tree/main/BombArrows "")
+! [网络不太好呢] (Previews/BombArrows_1.jpg)
