@@ -1,5 +1,5 @@
 # 𠃊颇游感触𠃍
-游玩过后，不妨亲自实现游戏<font size=10>coooooooooool</font>的内容<br><br><br>
+游玩过后，不妨亲自实现游戏<font size=30>coooooooooool</font>的内容<br><br><br>
 
 第一款：爆炸箭 BombArrows
 -------------------------
