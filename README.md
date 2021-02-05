@@ -3,7 +3,7 @@
 
 第一款：爆炸箭BombArrows
 -------------------------
-![](https://github.com/linhgf/GameLive/blob/main/Previews/BombArrows_1.jpg)  
+![预览图加载失败](https://github.com/linhgf/GameLive/blob/main/Previews/BombArrows_1.jpg)  
 ### 复刻游戏
 * 《塞尔达传说：旷野之息》（ゼルダの伝说： ブレスオブザワイルド）
 ### 项目
