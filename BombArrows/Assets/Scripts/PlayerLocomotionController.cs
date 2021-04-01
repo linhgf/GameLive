@@ -27,6 +27,7 @@ public class PlayerLocomotionController : MonoBehaviour
   
     private void OnEnable()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         _movement = GetComponent<PlayerMovementInputController>();
         _animator = GetComponent<Animator>();
     }

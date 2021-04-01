@@ -27,6 +27,13 @@ public class BombArrow : ArrowProjectile
             defaultMaterials.Add(bomb.material);
         base.Fire(direction);
     }
+    
+    /// <summary>
+    /// 检测碰撞，当碰撞体不是人物时，进入爆炸状态
+    /// </summary>
+    /// <param name="collision">
+    /// 碰撞体
+    /// </param>
 
     protected override void OnCollisionEnter(Collision collision)
     {   
@@ -45,6 +52,9 @@ public class BombArrow : ArrowProjectile
         StartCoroutine(DetonateCoroutine());
     }
 
+    /// <summary>
+    ///实现弓箭闪烁、弓箭爆炸闪光特效、爆炸功能
+    /// </summary>
     IEnumerator DetonateCoroutine()
     {
         float elapsedTime = 0;
@@ -56,17 +66,26 @@ public class BombArrow : ArrowProjectile
             elapsedTime += Time.deltaTime;
             frameCount ++;
 
+            //Math.PingPong实现每20帧进行一次闪烁
             var blink = Mathf.PingPong(frameCount * Time.timeScale, 10 / blinkFrequency);
 
+            //弓箭闪烁
             if(blink == 10 / blinkFrequency)
                 ToggleMaterial();
+
+            //爆炸前的闪光特效
             if(elapsedTime >= lifeTime - warmupTime && !warm)
                 PrewarmExplosion();   
+
+            //实现爆炸
             if(elapsedTime >= lifeTime)
                 Detonate();
         }
     }
 
+    /// <summary>
+    /// 弓箭随机闪烁
+    /// </summary>
     void ToggleMaterial()
     {
         if(explosiveMaterial != null)
@@ -76,6 +95,9 @@ public class BombArrow : ArrowProjectile
         }
     } 
 
+    /// <summary>
+    /// 爆炸闪烁光
+    /// </summary>
     void PrewarmExplosion()
     {   
         warm = true;
@@ -87,6 +109,9 @@ public class BombArrow : ArrowProjectile
         }
     } 
 
+    /// <summary>
+    /// 弓箭进行爆炸
+    /// </summary>
     void Detonate()
     {
         Vector3 explosionPos = transform.position;

@@ -120,9 +120,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 55
-  rb: {fileID: 0}
   lifeTime: 2
-  radius: 4
+  radius: 10
   power: 500
   blinkFrequency: 1
   warmupTime: 0.5
@@ -217,6 +216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BombArrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 2152218708608490900, guid: dff4dc8a978e8834f81a15a4813dc009,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dff4dc8a978e8834f81a15a4813dc009, type: 3}
