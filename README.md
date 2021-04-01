@@ -9,4 +9,4 @@
 ### 项目
 * [1.BombArrows爆炸箭](https://github.com/linhgf/GameLive/tree/main/BombArrows "")
 
-https://github.com/linhgf/GameLive/blob/main/Previews/video20210401_142015.gif
+![](https://github.com/linhgf/GameLive/blob/main/Previews/video20210401_142015.gif)
