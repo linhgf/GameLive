@@ -9,4 +9,11 @@
 ### 项目
 * [1.BombArrows爆炸箭](https://github.com/linhgf/GameLive/tree/main/BombArrows "")
 
-![](https://github.com/linhgf/GameLive/blob/main/Previews/video20210401_142015.gif)
+
+第二款：斩击切割Slice
+-------------------------
+![预览图加载失败](https://github.com/linhgf/GameLive/blob/main/Previews/MentalGear.gif)
+### 复刻游戏
+* 《合金装备》(Metal Gear)
+### 项目
+* [1.斩击切割Slice](https://github.com/linhgf/GameLive/tree/main/Metal%20Gear%20Rising's%20Blade%20Mode "")
