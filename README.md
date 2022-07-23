@@ -57,7 +57,7 @@
 ### 复刻游戏
 * 《QQ桌宠》
 
-第六款：DotsPlane
+第七款：DotsPlane
 -------------------------
 ![预览图加载失败](https://github.com/linhgf/GameLive/blob/main/Previews/DotsPlane.jpg)
 ### 简介
